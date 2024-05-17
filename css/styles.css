@@ -1035,12 +1035,15 @@ footer {
   }
   .subscribe-form {
     margin-top: 16px;
+    display: flex;
   }
   .container-media {
     text-align: left;
   }
   .subscribe-button {
     max-width: 768px;
+    margin-top: 0px;
+    margin-left: 24px;
   }
   .subscribe-p-div {
     text-align: left;
@@ -1096,7 +1099,7 @@ footer {
   .container-logo-all {
     margin: 0 auto;
     width: 1158px;
-    padding: 0 156px;
+    padding: 0 15px;
   }
   .mission-back {
     padding-bottom: 100px;
@@ -1104,11 +1107,19 @@ footer {
   }
   .container-logo {
     max-width: 1158px;
-    margin-right: 120px;
+    margin-left: 15px;
   }
   .container-media {
     margin-bottom: 16px;
   }
   .subscribe-button {
+    max-width: 1158px;
+  }
+  .subscribe-form {
+    margin-top: 16px;
+    display: flex;
+  }
+  .subscribe-p-div {
+    margin-left: 24px;
   }
 }
