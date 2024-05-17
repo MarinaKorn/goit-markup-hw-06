@@ -1023,9 +1023,6 @@ footer {
     padding: 0 108px;
   }
 
-  .subscribe-p-div {
-    margin-left: 24px;
-  }
   .mission-back {
     padding-top: 96px;
   }
@@ -1047,7 +1044,6 @@ footer {
   }
   .subscribe-p-div {
     text-align: left;
-    margin-left: 24px;
   }
 }
 
@@ -1100,18 +1096,16 @@ footer {
     margin: 0 auto;
     width: 1158px;
     padding: 0 15px;
+    gap: 0;
   }
   .mission-back {
     padding-bottom: 100px;
     padding-top: 100px;
   }
   .container-logo {
-    max-width: 1158px;
-    margin-left: 15px;
+    margin-right: 120px;
   }
-  .container-media {
-    margin-bottom: 16px;
-  }
+
   .subscribe-button {
     max-width: 1158px;
   }
@@ -1120,6 +1114,6 @@ footer {
     display: flex;
   }
   .subscribe-p-div {
-    margin-left: 24px;
+    margin-left: auto;
   }
 }
