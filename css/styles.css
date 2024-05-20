@@ -426,6 +426,7 @@ main {
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px;
+  align-items: center;
 }
 
 .team-li {
@@ -563,6 +564,7 @@ main {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  align-items: center;
 }
 
 .portfolio-item {
