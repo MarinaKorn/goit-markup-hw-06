@@ -20,6 +20,7 @@ button {
 
 img {
   display: block;
+  width: 100%;
 }
 
 * {
@@ -41,7 +42,7 @@ p {
 }
 .container {
   /* width: 1158px; */
-  width: 100%;
+  width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -367,9 +368,6 @@ main {
 .info-li {
   /* width: calc((100% - 72px) / 4); */
   width: 318px;
-  border-radius: 0px 0px 4px 4px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .container-icon-info {
@@ -423,6 +421,7 @@ main {
 
 .team-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   /* gap: 24px; */
   gap: 72px;
@@ -446,12 +445,12 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .icon-team-container-ul {
   list-style-type: none;
-  margin-top: 8px;
-  margin-left: 16px;
+
   display: flex;
   gap: 24px;
   text-align: center;
@@ -503,6 +502,7 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .portfolio-back {
@@ -560,10 +560,9 @@ main {
 }
 
 .portfolio-li {
-  margin: 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
   align-items: center;
 }
 
@@ -571,8 +570,6 @@ main {
   /* width: calc((100% - 48px) / 3); */
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 318px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .portfolio-item:hover .portfolio-p {
@@ -600,7 +597,7 @@ footer {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   text-align: center;
   color: #4d5ae5;
   display: inline-block;
@@ -745,8 +742,7 @@ footer {
 
 .container-media {
   /* margin-bottom: 16px; */
-  margin-top: 72px;
-  margin-bottom: 72px;
+
   text-align: center;
 }
 
@@ -1036,7 +1032,6 @@ footer {
     gap: 72px 24px;
   }
   .team-li {
-    width: calc((100% - 64px) / 2);
   }
   .portfolio-item {
     width: calc((100% - 24px) / 2);
@@ -1050,7 +1045,6 @@ footer {
   }
   .info-li {
     width: calc((100% - 24px) / 2);
-    padding-right: 0;
   }
 
   .container-logo-all {
