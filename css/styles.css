@@ -963,6 +963,7 @@ footer {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .check-link {
   line-height: 16px;
