@@ -40,27 +40,28 @@
         </div>
 
         <div class="mob-menu">
-            <div>
-                <button type="button" class="menu-close">X</button>
 
+            <button type="button" class="menu-close">
+                <svg class="mob-button-close" width="8" height="8">
+                    <use href="./images/close.svg#icon-Vector"></use>
+                </svg>
+            </button>
+            <nav class="mob-address-nav">
                 <ul class="mob-list">
                     <li class="mob-item"><a class="mob-link current" href="./index.html"> Studio </a></li>
                     <li class="mob-item"><a class="mob-link" href=""> Portfolio </a></li>
                     <li class="mob-item"><a class="mob-link" href=""> Contacts </a></li>
                 </ul>
-
-                <nav>
-                    <address class="mob-address">
-                        <ul class="mob-address-list">
-                            <li class="mob-address-item"><a class="mob-address-link current"
-                                    href="mailto:info@devstudio.com">info@devstudio.com</a>
-                            </li>
-                            <li class="mob-address-item"><a class="mob-address-link" href="tel:+110001111111">+11 (000)
-                                    111-11-11</a></li>
-                        </ul>
-                    </address>
-                </nav>
-            </div>
+            </nav>
+            <address class="mob-address">
+                <ul class="mob-address-list">
+                    <li class="mob-address-item"><a class="mob-address-link" href="tel:+110001111111">+11 (000)
+                            111-11-11</a></li>
+                    <li class="mob-address-item"><a class="mob-address-link current"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </address>
             <ul class="mob-icon-footer-container-ul">
                 <li class="mob-icon-footer-container">
                     <a href="" class="mob-icon-a-fotter">
@@ -91,7 +92,6 @@
                     </a>
                 </li>
             </ul>
-
         </div>
         </div>
     </header>
@@ -455,7 +455,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop  ">
+    <div class="backdrop is-open ">
         <div class="modal">
             <button type="button" class="modal-close">
                 <svg class="modal-close-icone" width="8" height="8">
